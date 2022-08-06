@@ -1,0 +1,47 @@
+h1 {
+
+ width: 100%;
+ background-color: orange;
+ border-width: 1px;
+ border-radius: 10px;
+ text-align: center;
+ padding: 10px;
+ opacity: 0.5;
+
+}
+
+.circle {
+
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    border-radius: 50%;
+    opacity: 0.5;
+    transition: all 0.5s;
+    box-shadow: 5px 5px 5px;
+    
+}
+
+#red {
+
+background-color: red;
+
+}
+
+#yellow {
+
+background-color: yellow;
+
+}
+
+#green {
+
+background-color: green;
+
+}
+
+.circle:hover {
+
+opacity: 1;
+
+}
